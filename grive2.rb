@@ -9,7 +9,7 @@ class Grive2 < Formula
 
   version HOMEBREW_GRIVE2_VERSION
 
-  depends_on "cmake" => :build, "jajl" => :install
+  depends_on "cmake" => :build, "yajl" => :install
 
   def install
     mkdir "build" do
