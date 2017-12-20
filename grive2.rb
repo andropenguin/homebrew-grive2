@@ -5,7 +5,6 @@ class Grive2 < Formula
   homepage "http://yourcmc.ru/wiki/Grive2"
   url "https://github.com/vitalif/grive2",
       :using => :git,
-      :tag => HOMEBREW_GRIVE2_VERSION,
       :revision => "84c57c121e03b070f80e1d8fd66749eead7a4d9e"
 
   version HOMEBREW_GRIVE2_VERSION
